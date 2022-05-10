@@ -1,6 +1,6 @@
-$git clone 
+git clone 
 https://github.com/ahmadfatah99/ahmad
 
-$cd ahmad
+cd ahmad
 
-$python 45.py
+python kakA7a.py
