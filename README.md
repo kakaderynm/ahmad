@@ -3,4 +3,4 @@ https://github.com/ahmadfatah99/ahmad
 
 cd ahmad
 
-python kakA7mad.py
+python A-M.py
